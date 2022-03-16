@@ -1,0 +1,19 @@
+2022.03.14 10:30:05 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2022.03.14 10:30:05 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2022.03.14 10:30:05 INFO  ce[][o.s.c.e.CoreExtensionsLoader] Loaded core extensions: 
+2022.03.14 10:30:06 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2022.03.14 10:30:06 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2022.03.14 10:30:06 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2022.03.14 10:30:06 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2022.03.14 10:30:07 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2022.03.14 10:30:07 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2022.03.14 10:30:07 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only.
+2022.03.14 10:30:08 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/ubuntu/sonarqube-7.3
+2022.03.14 10:30:08 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2022.03.14 10:30:09 WARN  ce[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@1e0d89ee. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2022.03.14 10:30:09 WARN  ce[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@7a6c3b6c. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2022.03.14 10:30:09 WARN  ce[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@6e9941ba. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2022.03.14 10:30:09 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2022.03.14 10:30:09 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before 1631701809805
+2022.03.14 10:30:09 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Scanner contexts tasks created before 1644834609818
+2022.03.14 10:30:09 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational

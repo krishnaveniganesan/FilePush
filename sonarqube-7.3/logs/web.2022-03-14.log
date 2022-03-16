@@ -1,0 +1,73 @@
+2022.03.14 10:29:46 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2022.03.14 10:29:47 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2022.03.14 10:29:48 INFO  web[][o.s.c.e.CoreExtensionsLoader] Loaded core extensions: 
+2022.03.14 10:29:48 INFO  web[][o.e.p.PluginsService] no modules loaded
+2022.03.14 10:29:48 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2022.03.14 10:29:48 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2022.03.14 10:29:48 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2022.03.14 10:29:49 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2022.03.14 10:29:49 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.3.0.15553 / 7f72262e02808e9431d97735ece621a22a1d8208
+2022.03.14 10:29:50 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2022.03.14 10:29:50 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/ubuntu/sonarqube-7.3/data
+2022.03.14 10:29:50 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2022.03.14 10:29:50 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only.
+2022.03.14 10:29:51 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/ubuntu/sonarqube-7.3
+2022.03.14 10:29:51 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Git / 1.4.1.1128 / e051f5aeb379541b13956447b5dc8b4e0b23b098
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin LDAP / 2.2.0.608 / 79dc3fa4393a29667673c70182f3016288b548b7
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 7.3.2.6129 / e7a731061a7fa928c4e1c11b830f22db97a61f83
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarCSS / 1.0.1.508 / 2eb799e363666ae65036ad61a6e6adc1a1283097
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarFlex / 2.4.0.1222 / 68d9cb3b7daccbc4869c4f2b89d09218d26a0829
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarGo / 1.1.0.1612 / 1809c7be6d88396c0a1b8d597b1e9e0ed8d29730
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 4.2.0.6476 / a21b56462f3375b5d51d90f1819862878476d817
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 5.6.1.15064 / dd4545a04af6f7d0cb0486926cfa8cfc5cae5ee1
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarKotlin / 1.0.1.965 / b5872affdfeda52e0a71494e2df9a3524b80d3bc
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.14.0.3569 / 59a202b8d1c5276ce32da2a0bc63c94cae4cdeb2
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.10.0.2131 / a00e0ddc83bbeb01a9ee7475fab9eafe3f4096ac
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.7.0.2893 / 0d296cae94240b183a0b3ae6e1a409a60fe9f865
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.5.1.1452 / eadc1dcd0e24a3c77068e3c1d41af0327d6b16ea
+2022.03.14 10:29:52 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Svn / 1.8.0.1168 / 4143f2d119022a758f6bf40aed4294e4c31706cf
+2022.03.14 10:29:53 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@54986f60 [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2022.03.14 10:29:53 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2022.03.14 10:29:54 WARN  web[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@e555058. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2022.03.14 10:29:54 WARN  web[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@2435d18b. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2022.03.14 10:29:54 WARN  web[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@70e9223d. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2022.03.14 10:29:54 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2022.03.14 10:29:55 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AX9zy7wsp-WDv6UEbeRN
+2022.03.14 10:29:55 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2022.03.14 10:29:55 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/security_reports/show
+2022.03.14 10:29:55 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2022.03.14 10:29:55 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2022.03.14 10:29:55 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2022.03.14 10:29:55 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2022.03.14 10:29:55 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2022.03.14 10:29:56 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2022.03.14 10:30:01 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2022.03.14 10:30:02 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2022.03.14 10:30:02 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2022.03.14 10:30:03 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile css/Sonar way
+2022.03.14 10:30:03 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2022.03.14 10:30:03 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2022.03.14 10:30:03 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2022.03.14 10:30:03 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile go/Sonar way
+2022.03.14 10:30:03 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile kotlin/Sonar way
+2022.03.14 10:30:03 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2022.03.14 10:30:04 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2022.03.14 10:30:04 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2022.03.14 10:30:04 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2022.03.14 10:30:04 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2022.03.14 10:30:04 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2022.03.14 10:30:04 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2022.03.14 10:30:04 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2022.03.14 10:30:04 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2022.03.14 10:30:04 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@4d56bd2d [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@4a765682 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@54a888fb [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@553b3142 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@7fe206d6 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@4fc4f0da [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@22c4ff37 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@42596bd5 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2022.03.14 10:30:04 INFO  web[][o.s.s.p.Platform] WebServer is operational
